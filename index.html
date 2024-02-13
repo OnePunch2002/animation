@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body class="container">
+    <style>
+        .all {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .tabs {
+            margin: 20px;
+        }
+
+        .element {
+            border-radius: 10%;
+            height: 380px;
+            width: 380px;
+            /* display: block; */
+            border: none;
+            background-color: #303030;
+        }
+
+        /* ///////////////////////////////////////////////// */
+        .container {
+            width: 98%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: #121212;
+
+            background: linear-gradient(135deg,
+                    #121212 25%,
+                    #1a1a1a 25%,
+                    #1a1a1a 50%,
+                    #121212 50%,
+                    #121212 75%,
+                    #1a1a1a 75%,
+                    #1a1a1a);
+            background-size: 40px 40px;
+
+            animation: move 4s linear infinite;
+        }
+
+        @keyframes move {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 40px 40px;
+            }
+        }
+    </style>
+
+    <div class="all">
+        <div class="tabs">
+            <iframe class="element" src="assets/spinner.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/svg.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/loop_cube.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/button1.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/tiles.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/3D_card.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/switch.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/radio.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/light_dark_mode.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/button2.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/hover_card.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/nav.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/checkbox.html"></iframe>
+        </div>
+        <div class="tabs">
+            <iframe class="element" src="assets/switch2.html"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>

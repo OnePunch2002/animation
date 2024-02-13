@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGO R</title>
+</head>
+
+<body>
+    <style>
+        body {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            align-items: center;
+            background-color: #303030;
+            margin: 0;
+        }
+
+        #logo {
+            width: 100%;
+            height: 100%;
+        }
+
+        #logo path {
+            stroke-dasharray: 2335.088;
+            stroke-dashoffset: 2335.088;
+            animation: line-anim 10s ease forwards infinite;
+        }
+
+        @keyframes line-anim {
+            0% {
+                stroke-dashoffset: 2335.088;
+            }
+
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+    <svg id="logo" version="1.1" viewBox="0 0 156.37 248.97" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+        <g transform="translate(-828.33 -1058.3)">
+
+            <path
+                d="m878.47 1058.8v5e-4h-39.688v238.12h39.688v-105.83h39.688v-5e-4a26.458 26.458 0 0 1 26.458 26.458v79.375h39.688v-79.375a66.146 66.146 0 0 0-18.995-46.264 66.146 66.146 0 0 0 18.995-46.339 66.146 66.146 0 0 0-66.146-66.146v-5e-4zm0 39.688h39.688v5e-4a26.458 26.458 0 0 1 26.458 26.458 26.458 26.458 0 0 1-26.452 26.458 66.146 66.146 0 0 0-0.01-5e-4v5e-4h-39.688zm6e-5 -39.82v5e-4h-39.688v10.055h-10.055v238.12h39.688v-10.055h10.055v-95.778h29.633v-5e-4a26.458 26.458 0 0 1 26.458 26.458v79.375h39.688v-10.055h10.055v-79.375a66.146 66.146 0 0 0-18.995-46.264 66.146 66.146 0 0 0 18.995-46.339 66.146 66.146 0 0 0-66.146-66.146v-5e-4zm-5.2e-4 49.742h29.633v5e-4a26.458 26.458 0 0 1 26.458 26.458 26.458 26.458 0 0 1-3.4303 12.973 26.458 26.458 0 0 1-12.967 3.4308 66.146 66.146 0 0 0-0.01-6e-4v6e-4h-39.688z"
+                fill="none" stroke="goldenrod" stroke-opacity=".96866" stroke-width=".79375" />
+        </g>
+    </svg>
+</body>
+
+</html>
