@@ -19,11 +19,15 @@
         }
 
         .button {
-            all: unset;
+            /* all: unset; */
+            width: 200px;
+            height: 70px;
+            background-color: #303030;
             display: flex;
             align-items: center;
             position: relative;
-            padding: 0em 3em;
+            justify-content: center;
+            /* padding: 0em 3em; */
             border: mediumspringgreen solid 0.15em;
             border-radius: 0.25em;
             color: mediumspringgreen;
@@ -70,11 +74,11 @@
         }
 
         .button:hover:before {
-            transform: translateX(-1em);
+            transform: translateX(-0.5em);
         }
 
         .button:hover:after {
-            transform: translateX(1em);
+            transform: translateX(0.5em);
         }
 
         .button:active:before,
